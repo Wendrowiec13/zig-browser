@@ -26,7 +26,7 @@ pub fn main() !void {
     );
     defer ul.ulDestroyWindow(window);
 
-    ul.ulWindowSetTitle(window, "Google Browser");
+    ul.ulWindowSetTitle(window, "Zig Ultralight Browser");
 
     const overlay = ul.ulCreateOverlay(window, 1920, 1080, 0, 0);
     defer ul.ulDestroyOverlay(overlay);
